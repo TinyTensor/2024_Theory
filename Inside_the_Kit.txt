@@ -5,3 +5,24 @@ Components in an Arduino TinyML BLE 33 Kit:
 - USB A - Micro USB Cable (1 meter)
 
 In the TinyML Shield, there are 6 groups of ports, 3 on the right mainly serve for most sensors, the other 3 on the left serve for special sensors or different ML tools.
+
+For ARDUINO Nano 33 BLE Sense Lite, it consists of some sensors:
+- Bluetooth
+- NFC Wifi
+- IMU (9 axis, consists accelerometer, gyroscope and magnetometer)
+- Humidity
+- Temperature
+- Barometric (pressure)
+- Microphone
+- Colour (detect RGB)
+
+To setup sensors libraries and TinyML, go here: https://youtu.be/LXgL850p7b0?si=Ws3LoENim9h1RcQU&t=141
+or install as below:
+- Arduino IDE
+- Arduino nano 33 BLE (might be environment library to run Arduino)
+- APDS9960 - Gesture, color and proximity
+- HTS221 - Temperature and humidity sensor
+- LPS22HB - Barometer
+- LSM9DS1 - IMU (Accelerometer, gyroscope, magnetometer)
+- Adafruit PDM - Microphone
+- TensorFlowLite - Machine Learning applications
