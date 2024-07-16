@@ -1,0 +1,7 @@
+Components in an Arduino TinyML BLE 33 Kit:
+- ARDUINO Nano 33 BLE Sense Lite
+- TinyML Shield
+- OV7675 Camera Module
+- USB A - Micro USB Cable (1 meter)
+
+In the TinyML Shield, there are 6 groups of ports, 3 on the right mainly serve for most sensors, the other 3 on the left serve for special sensors or different ML tools.
